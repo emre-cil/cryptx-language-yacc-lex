@@ -1,0 +1,41 @@
+print /n;
+print /n;
+print /n;
+
+print "hello, world!";
+print "------------Welcome to the CryptX Language------------";
+--help
+print /n;
+print "----this commands helps to show usage of encrypt and decrypt algorithms----";
+--help -encrypt
+--help -decrypt
+print /n;
+print /n;
+print "--------------example of encrypting password-----------------";
+-eAES "thisIsaPasswordWhichWeGonnaEncrypt123411"
+print /n;
+print "------------this one is decrypted one------------------";
+-dAES "uijtJtbQbttxpseXijdiXfHpoobFodszqu234522"
+print /n;
+print "------------Lets play with numbers------------";
+12 * 4
+234 / 12
+12 + 1
+5 - 2
+print "-------------Lets assign and print it-------------";
+a = 14;
+b = 4;
+c = a + b;
+print c;
+if(a != b)
+{
+print "it's in the if";
+print a + c ;
+}
+
+print "--------------lets try for loop----------------";
+for(a){~b~}
+
+
+print "---------------Without pascal we can not live right--------------";
+-pascalTriangle 15
